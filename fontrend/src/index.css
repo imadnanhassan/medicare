@@ -66,8 +66,8 @@
    z-index: 99999;
    background-color: #fff;
    box-shadow: 3px 3px -8px 3px #ddd;
-   transform: translateY(-5%);
-   transition: transform 1s ease;
+   /* transform: translateY(-5%);
+   transition: transform .1s ease; */
  }
 
  @media only screen and (max-width: 768px){

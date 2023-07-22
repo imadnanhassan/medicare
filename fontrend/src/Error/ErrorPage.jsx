@@ -3,9 +3,13 @@ import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
-    <div>
-      404 | Not Found
-      <Link to={"/"}>Go To Hole</Link>
+    <div className="">
+      <div className="flex gap-4 items-center justify-center mt-[23%]">
+        <p>404 | Not Found</p>
+        <p className="text-base text-purple-700">
+          <Link to={"/"}>Go To Home</Link>
+        </p>
+      </div>
     </div>
   );
 };
