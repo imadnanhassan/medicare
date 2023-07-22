@@ -1,7 +1,7 @@
 import React from "react";
-import heroImg1 from "../../../assets/images/hero-img01.png"
-import heroImg2 from "../../../assets/images/hero-img02.png"
-import heroImg3 from "../../../assets/images/hero-img03.png"
+import heroImg1 from "../../../assets/images/hero-img01.png";
+import heroImg2 from "../../../assets/images/hero-img02.png";
+import heroImg3 from "../../../assets/images/hero-img03.png";
 
 const HeroSection = () => {
   return (
@@ -20,7 +20,7 @@ const HeroSection = () => {
                   Ad eos, voluptatibus iste tenetur, corporis quam tempora
                   sequi, explicabo necessitatibus amet vitae?
                 </p>
-                <button className="btn px-3">Request an Appoinment</button>
+                <button className="btn px-6 rounded-lg">Request an Appoinment</button>
               </div>
 
               <div className="mt-[30px] lg:mt-[78px] lg:flex flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
@@ -48,13 +48,13 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="flex gap-[30px] justify-end">
-               <div>
-                  <img src={heroImg1} alt=""  className="w-full"/>
-               </div>
-               <div className="mt-[30px] flex flex-col gap-4">
-                  <img src={heroImg2} alt=""  className="w-full mb-[30]"/>
-                  <img src={heroImg3} alt=""  className="w-full"/>
-               </div>
+              <div>
+                <img src={heroImg1} alt="" className="w-full" />
+              </div>
+              <div className="mt-[30px] flex flex-col gap-4">
+                <img src={heroImg2} alt="" className="w-full mb-[30]" />
+                <img src={heroImg3} alt="" className="w-full" />
+              </div>
             </div>
           </div>
         </div>
