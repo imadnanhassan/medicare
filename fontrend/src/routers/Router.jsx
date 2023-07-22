@@ -5,6 +5,7 @@ import Services from "../pages/HeaderMenu/Services";
 import ErrorPage from "../Error/ErrorPage";
 import SignIn from "../pages/Login/SignIn";
 import Contact from "../pages/HeaderMenu/Contact";
+import Doctors from "../pages/Doctors/Doctors";
 
 
 const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
          path: '/',
          element: <Home></Home>
+      },
+      {
+         path: '/doctors',
+         element: <Doctors></Doctors>
       },
       {
          path: "/service",
