@@ -4,7 +4,7 @@ import ServicesSectionListCard from "./ServicesSectionListCard";
 
 const ServiceSection = () => {
   return (
-    <div>
+    <>
       <div className="container py-10">
         <div className="lg:w-[470px] mx-auto py-4">
           <h2 className="heading text-center">Our medical services</h2>
@@ -23,7 +23,7 @@ const ServiceSection = () => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

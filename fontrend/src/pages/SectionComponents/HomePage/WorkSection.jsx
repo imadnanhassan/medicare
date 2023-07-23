@@ -7,7 +7,7 @@ import { BiSolidArrowToRight } from "react-icons/bi";
 
 const WorkSection = () => {
   return (
-    <div className="bg-gradient-to-r from-[#fff5df] via-[#fff] to-[#ccf0f3] "> 
+    <div className="bg-gradient-to-r from-[#fff5df] via-[#fff] to-[#ccf0f3] py-10"> 
       <div className="container">
         <div className="lg:w-[470px] mx-auto py-4">
           <h2 className="heading text-center">
