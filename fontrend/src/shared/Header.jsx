@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import logo from "../assets/images/logo.png";
 import avaterImg from "../assets/images/avatar-icon.png";
 import { Link, NavLink } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
@@ -74,7 +73,6 @@ const Header = () => {
               </svg>
               <h1 className="font-semibold text-2xl">Doc House</h1>
             </div>
-            {/* <img src={logo} alt="" /> */}
           </Link>
           {/* navLink */}
           <div className="navagation" ref={menuRef} onClick={toggleMenu}>
@@ -108,13 +106,13 @@ const Header = () => {
                 </figure>
               </Link>
             </div>
-            {/* <div className="login">
+            <div className="login">
               <Link to={"login"}>
                 <button className="bg-primaryColor px-4 py-3 text-white font-[600] rounded flex items-center justify-center">
                   Login
                 </button>
               </Link>
-            </div> */}
+            </div>
             <span className="md:hidden" onClick={toggleMenu}>
               <BiMenu className="w-6 h-6 cursor-pointer"></BiMenu>
             </span>
