@@ -4,15 +4,15 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-
 import patientImg from "../../../assets/images/patient-avatar.png";
 import { HiStar } from "react-icons/hi";
 
 const TestimonialSection = () => {
   return (
-    <div>
+    <div className=" ">
+      {/* bg-gradient-to-r from-[#ccf0f3] via-[#fff] to-[#fff5df] */}
       <div className="container py-10">
-        <div className="lg:w-[470px] mx-auto py-4">
+        <div className="lg:w-[470px] mx-auto py-10">
           <h2 className="heading text-center">What our patient say</h2>
           <p className="text-para text-center">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
@@ -25,7 +25,6 @@ const TestimonialSection = () => {
             spaceBetween={30}
             slidesPerView={1}
             pagination={{ clickable: true }}
-            
             breakpoints={{
               640: {
                 slidesPerView: 1,

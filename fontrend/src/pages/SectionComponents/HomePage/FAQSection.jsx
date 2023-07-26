@@ -7,12 +7,7 @@ const FAQSection = () => {
     <div className="container py-10">
       <div className="lg:w-[470px] mx-auto py-4">
         <h2 className="heading text-center">FAQ Section</h2>
-        {/* <p className="text-para text-center">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
-          numquam.
-        </p> */}
       </div>
-
       <div className="flex justify-between gap-[50px] lg:gap-0 ">
         <div className="w-1/2 hidden md:block">
           <img src={faqImg} alt="" />

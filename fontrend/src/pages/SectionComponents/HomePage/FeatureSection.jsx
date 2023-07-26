@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import featureImg from "../../../assets/images/feature-img.png";
 import videoIcon from "../../../assets/images/video-icon.png";
 import avatar from "../../../assets/images/avatar-icon.png";
-import { format } from 'date-fns'; 
-
+import { format } from "date-fns";
 
 const CustomTooltip = ({ text, children }) => {
   return (
@@ -53,10 +52,8 @@ const FeatureSection = () => {
             <span class="relative">Learn More</span>
           </Link>
         </div>
-
         <div className="xl:w-[770px] relative z-10 flex items-center justify-end mt-[50px] md:mt-0">
           <img src={featureImg} alt="" />
-
           <div className="w-[150px] lg:w-[248px] bg-white absolute bottom-[50px] left-0 md:bottom-[100px] md:left-36 z-20 py-5 px-5 rounded">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-[6px] lg:gap-3">
@@ -67,7 +64,6 @@ const FeatureSection = () => {
                   {formattedTime}
                 </p>
               </div>
-
               <div className="bg-yellowColor px-1 py-1 rounded">
                 <CustomTooltip text="Free Health Support">
                   <a href="_#">
@@ -81,7 +77,9 @@ const FeatureSection = () => {
             </p>
             <div className="flex gap-3 items-center py-3">
               <img src={avatar} alt="" />
-              <h2 className="font-[700] leading-3 text-[10px] lg:text-[16px] lg:leading-[12px]">Adnan Hassan</h2>
+              <h2 className="font-[700] leading-3 text-[10px] lg:text-[16px] lg:leading-[12px]">
+                Adnan Hassan
+              </h2>
             </div>
           </div>
         </div>
