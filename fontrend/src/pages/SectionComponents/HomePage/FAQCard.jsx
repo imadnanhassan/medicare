@@ -32,7 +32,7 @@ const FAQCard = ({ item }) => {
         </div>
         {isOpen && (
           <div className="mt-4">
-            <p>{content}</p>
+            <p className="text-para">{content}</p>
           </div>
         )}
       </div>
