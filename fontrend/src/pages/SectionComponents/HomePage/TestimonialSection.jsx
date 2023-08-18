@@ -46,7 +46,7 @@ const TestimonialSection = () => {
                   <img src={patientImg} alt="" />
                   <div>
                     <h4 className="text-[18px] leading-[38px] font-semibold text-headingColor">
-                      Muhibur Rahaman
+                      Adnan Hassan
                     </h4>
                     <div className="flex items-center gap-1">
                       <HiStar className="text-yellowColor w-[18px] h-5"></HiStar>
