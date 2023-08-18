@@ -43,7 +43,7 @@ const DoctorSectionListCard = ({ item }) => {
           <h3 className="text-[14px] font-[400] text-textColor">{hospital}</h3>
         </div>
         <Link
-          to={"/doctors"}
+          to={'/doctors/1'}
           className="w-[44px] h-[44px] flex items-center justify-center group  rounded-full border-[#181a1e] border hover:bg-primaryColor hover:border-none"
         >
           <BiSolidArrowToRight className="group-hover:text-white w-6 h-5"></BiSolidArrowToRight>

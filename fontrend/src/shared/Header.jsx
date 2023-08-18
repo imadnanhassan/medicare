@@ -78,7 +78,6 @@ const Header = () => {
               <h1 className="font-semibold text-2xl">Doc House</h1>
             </div>
           </Link>
-          {/* navLink */}
           <div className="navagation" ref={menuRef} onClick={toggleMenu}>
             <ul className="menu flex items-center gap-[2.7rem]">
               {navLink.map((link, index) => (
@@ -110,17 +109,19 @@ const Header = () => {
                 </figure>
               </Link>
             </div>
-            <div className="login">
-              <Link to={"login"}>
-                <button className="bg-primaryColor px-4 py-3 text-white font-[600] rounded flex items-center justify-center">
-                  Login
-                </button>
-              </Link>
-            </div>
-            <span className="md:hidden" onClick={toggleMenu}>
-              <BiMenu className="w-6 h-6 cursor-pointer"></BiMenu>
-            </span>
           </div>
+
+          <div className="login">
+            <Link to={"login"}>
+              <button className="bg-primaryColor px-4 py-3 text-white font-[600] rounded flex items-center justify-center">
+                Login
+              </button>
+            </Link>
+          </div>
+
+          <span className="md:hidden" onClick={toggleMenu}>
+            <BiMenu className="w-6 h-6 cursor-pointer"></BiMenu>
+          </span>
         </div>
       </div>
     </div>
