@@ -1,4 +1,3 @@
-// import React, { useEffect, useState } from "react";
 import { services } from "../../../assets/data/services";
 import ServicesSectionListCard from "./ServicesSectionListCard";
 

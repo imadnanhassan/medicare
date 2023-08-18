@@ -7,7 +7,7 @@ const FAQSection = () => {
   return (
     <div className="container py-10">
       <div className="lg:w-[470px] mx-auto py-4">
-        <h2 className="heading text-center">FAQ Section</h2>
+        <h2 className="heading text-center">Frequently Asked Questions</h2>
       </div>
       <div className="flex items-center justify-between gap-[50px] lg:gap-0 mt-10">
         <div className="w-1/2 hidden md:block relative">
