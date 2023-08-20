@@ -16,8 +16,8 @@ const DoctorFeedback = () => {
 
         <div className="flex justify-between gap-10 mb-[30px]">
           <div className="flex gap-3">
-            <figure>
-              <img src={avater} alt="" className="w-10 h-10 rounded-full" />
+            <figure className=" rounded-full w-full">
+              <img src={avater} alt="" className=" w-10 h-10" />
             </figure>
             <div>
               <h5 className="text-[16px] font-bold text-primaryColor leading-6">
