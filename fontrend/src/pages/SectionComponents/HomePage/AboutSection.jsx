@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
-    <div className="bg-gradient-to-r from-[#ccf0f3] via-[#fff] to-[#fff5df] py-10">
+    <div className="bg-gradient-to-r from-[#ccf0f3] via-[#fff] to-[#fff5df] py-10 ">
       <div className="container py-4">
         <div className="flex justify-between items-center gap-[50px] lg:gap-[130px] xl:gap-0 flex-col lg:flex-row">
           <div className="relative w-3/4 lg:w-1/2 xl:-[770px] z-10 order-2 lg:order-1">
             <img src={aboutImg} alt="" />
             <div className="absolute z-20 bottom-4 w-[200px] md:w-[300px] right-[-30%] md:rigt-[-7%] lg:right-[22%]">
-              <img src={aboutCard} alt="" />
+              <img src={aboutCard} alt="" className="animate-bounce animate-duration-1000 animate-ease-linear" />
             </div>
           </div>
           <div className="w-full lg:w-1/2 xl:w-[670px] order-1 lg:order-2">
@@ -37,6 +37,8 @@ const AboutSection = () => {
               <span class="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
               <span class="relative">Learn More</span>
             </Link>
+
+            
           </div>
         </div>
       </div>
