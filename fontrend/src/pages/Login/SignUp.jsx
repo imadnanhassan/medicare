@@ -1,5 +1,7 @@
 import React from "react";
 import signUpImg from "../../assets/images/signup.gif";
+import uploadImg from "../../assets/images/doctor-img01.png";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
@@ -73,6 +75,45 @@ const SignUp = () => {
                   </select>
                 </label>
               </div>
+
+              <div className="mb-5 flex items-center gap-3">
+                <figure className="w-[60px] h-[60px] rounded-full border border-primaryColor flex items-center justify-center">
+                  <img src={uploadImg} alt="" className="w-full rounded-full" />
+                </figure>
+                <div className="relative w-[130px] h-[50px]">
+                  <input
+                    type="file"
+                    name="photo"
+                    id="customFile"
+                    accept=".jpg, .png"
+                    className="absolute top-0 left-0 opacity-0 w-full h-full cursor-pointer"
+                  />
+                  <label
+                    htmlFor="customFile"
+                    className="absolute top-0 left-0 w-full h-full flex items-center px-[0.75rem] py-[0.375rem] text-[15px] overflow-hidden bg-[#0066ff46] text-headingColor font-semibold rounded-lg truncate cursor-pointer"
+                  >
+                    Upload a Photo
+                  </label>
+                </div>
+              </div>
+
+              <div className="mt-7">
+                <button
+                  type="submit"
+                  className="w-full rounded-md font-semibold bg-primaryColor text-white text-[18px] leading-[38px] px-4 py-3"
+                >
+                  Sign Up
+                </button>
+              </div>
+              <p className="text-center mt-5 text-textColor">
+                Already Have a Account?
+                <Link
+                  to={"/login"}
+                  className="ml-1 text-primaryColor font-semibold"
+                >
+                  Login
+                </Link>
+              </p>
             </form>
           </div>
         </div>
