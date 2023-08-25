@@ -20,7 +20,12 @@
    .text-para{
       @apply text-[18px] leading-[30px] font-[400] text-textColor mt-[18px]
    }
-   
+   .form-label{
+      @apply text-textColor font-semibold text-[16px] leading-7 mb-2
+   }
+   .form-input{
+      @apply w-full px-4 py-3 border border-[#0066ff61] focus:outline-none focus:border-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer rounded-md
+   }
 }
 @media only screen and (max-width: 1024px) {
    .container{

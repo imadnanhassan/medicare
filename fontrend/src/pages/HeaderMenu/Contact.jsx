@@ -20,6 +20,30 @@ const Contact = () => {
             className="mt-1 form-input"
           />
         </div>
+        <div>
+          <label htmlFor="email" className="form-label">
+            Subject
+          </label>
+          <input
+            type="text"
+            id="subject"
+            placeholder="Let us know, how we can help you."
+            className="mt-1 form-input"
+          />
+        </div>
+        <div className="sm:col-span-2">
+          <label htmlFor="email" className="form-label">
+            Your Message
+          </label>
+          <textarea
+            rows="6"
+            type="text"
+            id="message"
+            placeholder="Leave a comment..."
+            className="mt-1 form-input"
+          />
+        </div>
+        <button type="submit" className="btn sm:w-fit rounded-md px-8">Submit</button>
       </form>
     </section>
   );
